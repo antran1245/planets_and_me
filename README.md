@@ -32,4 +32,6 @@ Used **Prisma**
 
 Object-relational mapping (ORM) is used to access a database in Node.js and TypeScript application.
 
-Information on these Plants come from **NASA** website.
+Information on these Plants and Moons come from **NASA** website.
+
+Planets texture comes from [Solar System Scope](https://www.solarsystemscope.com/textures/)
