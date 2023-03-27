@@ -1,0 +1,97 @@
+.sphere {
+  border-radius: 50%;
+  background-size: cover;
+  animation-fill-mode: forwards;
+}
+
+.sun {
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_sun.jpg);
+  width: 600px;
+  height: 600px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.mercury {
+  width: 5px;
+  height: 5px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_mercury.jpg);
+  box-shadow: -1px -1px 3px 2px rgb(131, 130, 127) inset, 0 0 2px 2px rgb(255, 255, 255);
+  animation: spin 20s linear infinite;
+  margin-left: 3px;
+}
+
+.venus {
+  width: 12.5px;
+  height: 12.5px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_venus_surface.jpg);
+  box-shadow: -5px -5px 10px 2px #CA7025 inset, 0 0 8px 2px #CA7025;
+  animation: spin 20s linear infinite;
+  margin-left: 3px;
+}
+
+.earth {
+  width: 13px;
+  height: 13px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg);
+  box-shadow: -5px -5px 10px 2px rgb(141, 141, 141) inset, 0 0 10px 2px white;
+  animation: spin 30s linear infinite;
+  margin-left: 3px;
+}
+.earthCloud {
+  width: 13px;
+  height: 13px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_earth_clouds.jpg);
+  opacity: .15;
+  animation: spin 30s linear infinite;
+}
+
+.mars {
+  width: 7px;
+  height: 7px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_mars.jpg);
+  box-shadow: -5px -5px 10px 2px #C2593B inset, 0 0 10px 2px #C2593B;
+  animation: spin 30s linear infinite;
+  margin-left: 6px;
+}
+
+.jupiter {
+  width: 143.7px;
+  height: 143.7px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
+  box-shadow: -10px -10px 13px 2px #DCBFBF inset, 0 0 30px 2px #DCBFBF;
+  animation: spin 30s linear infinite;
+  margin-left: 30px;
+}
+
+.saturn {
+  width: 119.5px;
+  height: 119.5px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_saturn.jpg);
+  box-shadow: -8px -8px 12px 2px #222222 inset, 0 0 20px 2px #222222;
+  animation: spin 30s linear infinite;
+  margin-left: 45px;
+}
+
+.uranus {
+  width: 52px;
+  height: 52px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_uranus.jpg);
+  box-shadow: -8px -8px 12px 2px #D8F4F8 inset, 0 0 20px 2px #D8F4F8;
+  animation: spin 30s linear infinite;
+  margin-left: 90px;
+}
+
+.neptune {
+  width: 50.5px;
+  height: 50.5px;
+  background-image: url(https://www.solarsystemscope.com/textures/download/2k_neptune.jpg);
+  box-shadow: -8px -8px 12px 2px #BAC9EF inset, 0 0 20px 2px #BAC9EF;
+  animation: spin 30s linear infinite;
+  margin-left: 90px;
+}
+@keyframes spin {
+  100% {
+    background-position: 100%;
+  }
+}
