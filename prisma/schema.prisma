@@ -13,10 +13,10 @@ datasource db {
 model Planet {
   id  Int  @id @default(autoincrement())
   name  String
-  size  String
-  distanceFromSun  String
+  size  Int
+  distanceFromSun  Int
   facts  String[]
-  moons  String[]
+  moons  Moon[]
   core  Core @default(SOLID)
   visual  String
 }
@@ -28,7 +28,9 @@ enum Core {
 
 model Moon {
   id  Int  @id @default(autoincrement())
+  planetId Int
+  planet Planet? @relation(fields: [planetId], references: [id])
   name  String
   historyBehindName  String
-  size  String
+  size  Int
 }

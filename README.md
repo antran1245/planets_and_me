@@ -11,7 +11,7 @@ The Back End will have 2 models:
 
 - **Planet**
   - Name
-  - Size
+  - Size (Radius from center to surface in Miles)
   - Distance from the Sun
   - Three identifying facts
   - Solid or Gas
@@ -31,3 +31,5 @@ Run by `yarn dev` or `npm run dev`
 Used **Prisma**
 
 Object-relational mapping (ORM) is used to access a database in Node.js and TypeScript application.
+
+Information on these Plants come from **NASA** website.
